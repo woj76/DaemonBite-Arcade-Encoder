@@ -31,3 +31,7 @@ Blue text in image (silk screen) corresponds to the Bx button numbers in the ima
 
 ## License
 This project is licensed under the GNU General Public License v3.0. The name "daemonbite" is registered to my company in Finland and should not be used by others.
+
+## Fork
+
+This fork shall have (a) the debounce hardcoded in (I find it necessary (MiSTer / RetroPie GUI), and (b, hardcoding (a) allows to shave off a couple of cycles for this) pin 7 utilized for left/right handed use of an upside down flippable controller, special feature request by a family member ;) (remapping of directions and buttons).
