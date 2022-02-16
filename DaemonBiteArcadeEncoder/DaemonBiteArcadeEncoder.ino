@@ -111,8 +111,8 @@ void loop()
   // debounce = (PINE & B01000000) ? false : true;
 
   // The switch itself does not have to be debounced, but tests are needed first
-  leftHand = (PINE & B01000000) ? false : true; // left-handed operation when the
-                                                // when pin 7 shorted to ground
+  leftHand = (PINE & B01000000) ? false : true; // left-handed operation when
+                                                // pin 7 shorted to ground
 
   for(uint8_t i=0; i<10; i++) // One iteration (when debounce is enabled) takes approximately 35µs to complete, so we don't need to check the time between every iteration
   {
